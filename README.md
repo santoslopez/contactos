@@ -1,4 +1,4 @@
-## Contactos
+## Libreta de contactos
 Interfaz gráfica desarrollado en Java que permite insertar, modificar, listar y eliminar contactos utilizando la estructura
 de datos LinkedList.
 
@@ -15,4 +15,4 @@ En la línea de comandos irnos a la carpeta de los archivos. Compilar la clase M
 
 
 ### Actualmente en desarrollo
-Falta implementar interfaz gráfica de modificar, listar y eliminar.
+Falta implementar interfaz gráfica de modificar y eliminar.

@@ -18,10 +18,15 @@ public class Agenda{
             menu();
         }
 
+        String imprimirInformacion="";
         int longitudlista = linkedList.size();
         for(int i=0;i<longitudlista;i++){
-            System.out.println(linkedList.get(i).toString());
-        }      
+            String salida = linkedList.get(i).toString();
+            imprimirInformacion += salida+"\n"; 
+            
+        }   
+        JOptionPane.showMessageDialog(null,imprimirInformacion);
+
     }
 
 
@@ -60,7 +65,6 @@ public class Agenda{
 
                 case 4:
                 listarContactos(linkedlist);
-                JOptionPane.showMessageDialog(null,"Interfaz grafica en desarrollo");
                 menu();
                 break;
 
